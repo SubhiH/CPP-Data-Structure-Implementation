@@ -12,6 +12,7 @@
 
 struct vector3 {
     float x,y,z;
+    
     vector3():x(0),y(0),z(0){
     }
     ~vector3(){
