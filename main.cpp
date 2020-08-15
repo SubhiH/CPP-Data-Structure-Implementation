@@ -7,8 +7,7 @@
 //
 
 #include <iostream>
-#include "Vector.h"
-
+#include "header/Vector.h"
 
 struct vector3 {
     float x,y,z;
@@ -76,6 +75,7 @@ int main(int argc, const char * argv[]) {
     myVec.PushBack(t);
     myVec.PushBack(vector3());
     myVec.PushBack(vector3(11));
+    myVec.PushBack(11);
     PrintVec(myVec);
     myVec.PushBack(vector3());
     PrintVec(myVec);
